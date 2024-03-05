@@ -26,17 +26,20 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Upper Body"/>
+        android:text="Upper Body"
+        android:id="@+id/upperBTN"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Lower Body"/>
+        android:text="Lower Body"
+        android:id="@+id/lowerBTN"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Back / Cardio"/>
+        android:text="Back / Cardio"
+        android:id="@+id/cardBTN"/>
 
 
 
