@@ -4,12 +4,12 @@ plugins {
 
 android {
     namespace = "org.pattersonclippers.myfitnessapptcnn"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "org.pattersonclippers.myfitnessapptcnn"
         minSdk = 19
-        targetSdk = 33
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
