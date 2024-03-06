@@ -3,6 +3,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
+    android:background="@color/grey"
     xmlns:android="http://schemas.android.com/apk/res/android" >
 
     <TextView
@@ -10,36 +11,61 @@
         android:layout_height="wrap_content"
         android:text=" Welcome to our App "
         android:textStyle="bold"
-        android:textSize="30dp" />
+        android:textSize="30dp"
+        android:textColor="@color/teal"/>
 
     <Space
         android:layout_width="wrap_content"
-        android:layout_height="25dp"/>
+        android:layout_height="35dp"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="What should we work on today?"
         android:textSize="20sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:textColor="@color/teal"/>
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Upper Body"
-        android:id="@+id/upperBTN"/>
+        android:id="@+id/upperBTN"
+        android:textColor="@color/teal"
+        android:backgroundTint="@color/grey"/>
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Lower Body"
-        android:id="@+id/lowerBTN"/>
+        android:id="@+id/lowerBTN"
+        android:textColor="@color/teal"
+        android:backgroundTint="@color/grey"/>
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Back / Cardio"
-        android:id="@+id/cardBTN"/>
+        android:id="@+id/cardBTN"
+        android:textColor="@color/teal"
+        android:backgroundTint="@color/grey"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/teal"
+        android:textSize="25dp"
+        android:hint="How many calories did you eat"
+        android:textColorHint="@color/teal"/>
 
 
 
