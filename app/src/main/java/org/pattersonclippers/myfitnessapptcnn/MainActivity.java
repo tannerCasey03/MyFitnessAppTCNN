@@ -32,5 +32,28 @@ public class MainActivity extends AppCompatActivity {
 
 
         });
+
+
+        lowerBTN.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent myIntent = new Intent(MainActivity.this, lowerBodyActivity.class);
+                startActivity(myIntent);
+            }
+
+
+        });
+
+
+        cardBTN.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent myIntent = new Intent(MainActivity.this, cardAndBackActivity.class);
+                startActivity(myIntent);
+            }
+
+
+        });
+
     }
 }
