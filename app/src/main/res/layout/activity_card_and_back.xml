@@ -4,6 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:gravity="center"
+    android:background="@color/grey"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
 
@@ -12,7 +13,8 @@
         android:layout_height="wrap_content"
         android:text="Back"
         android:textSize="30dp"
-        android:textStyle="bold"/>
+        android:textStyle="bold"
+        android:textColor="@color/teal"/>
 
     <Space
         android:layout_width="wrap_content"
@@ -24,7 +26,9 @@
         android:padding="7dp"
         app:cornerRadius="0dp"
         android:text="Side Planks 3 sets until you cant hold it"
-        android:textSize="20dp" />
+        android:textSize="20dp"
+        android:textColor="@color/teal"
+        android:backgroundTint="@color/Darkgrey"/>
 
     <Space
         android:layout_width="wrap_content"
@@ -35,7 +39,9 @@
         android:layout_height="wrap_content"
         android:text="Bent over rows 3 sets of 25"
         app:cornerRadius="0dp"
-        android:textSize="20dp"/>
+        android:textSize="20dp"
+        android:textColor="@color/teal"
+        android:backgroundTint="@color/Darkgrey"/>
 
     <Space
         android:layout_width="wrap_content"
@@ -46,7 +52,9 @@
         android:layout_height="wrap_content"
         app:cornerRadius="0dp"
         android:text=" Weighted Shoulder Raises 3 sets of 10"
-        android:textSize="20dp"/>
+        android:textSize="20dp"
+        android:textColor="@color/teal"
+        android:backgroundTint="@color/Darkgrey"/>
 
 
     <Space
@@ -58,7 +66,8 @@
         android:layout_height="wrap_content"
         android:text="Cardio"
         android:textSize="30dp"
-        android:textStyle="bold"/>
+        android:textStyle="bold"
+        android:textColor="@color/teal"/>
 
     <Space
         android:layout_width="wrap_content"
@@ -69,7 +78,9 @@
         android:layout_height="wrap_content"
         app:cornerRadius="0dp"
         android:text="High Knees 5 sets of 15"
-        android:textSize="20dp"/>
+        android:textSize="20dp"
+        android:textColor="@color/teal"
+        android:backgroundTint="@color/Darkgrey"/>
 
     <Space
         android:layout_width="wrap_content"
@@ -80,7 +91,9 @@
         android:layout_height="wrap_content"
         app:cornerRadius="0dp"
         android:text="Jumping Jacks 5 sets of 15"
-        android:textSize="20dp"/>
+        android:textSize="20dp"
+        android:textColor="@color/teal"
+        android:backgroundTint="@color/Darkgrey"/>
 
     <Space
         android:layout_width="wrap_content"
@@ -91,7 +104,9 @@
         android:layout_height="wrap_content"
         app:cornerRadius="0dp"
         android:text="Lateral Shuffle5 sets of 15"
-        android:textSize="20dp"/>
+        android:textSize="20dp"
+        android:textColor="@color/teal"
+        android:backgroundTint="@color/Darkgrey"/>
 
 
 
