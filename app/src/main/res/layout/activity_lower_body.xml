@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:gravity="center"
     android:background="@color/grey"
-    xmlns:android="http://schemas.android.com/apk/res/android" >
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
 
 
     <TextView
@@ -15,38 +18,79 @@
         android:textStyle="bold"
         android:textColor="@color/teal"/>
 
+
     <Space
         android:layout_width="wrap_content"
-        android:layout_height="25dp"/>
+        android:layout_height="25dp"
+        android:textColor="@color/teal"/>
 
-    <TextView
+
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Lunges 3 sets of 10"
+        app:cornerRadius="0dp"
         android:textSize="25dp"
-        android:textColor="@color/teal"/>
+        android:textColor="@color/teal"
+        android:backgroundTint="@color/Darkgrey"/>
+
 
     <Space
         android:layout_width="wrap_content"
         android:layout_height="25dp"/>
 
-    <TextView
+
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Squats 2 sets of 15"
+        app:cornerRadius="0dp"
         android:textSize="25dp"
-        android:textColor="@color/teal"/>
+        android:textColor="@color/teal"
+        android:backgroundTint="@color/Darkgrey"/>
+
 
     <Space
         android:layout_width="wrap_content"
         android:layout_height="25dp"/>
 
-    <TextView
+
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Calf raises 3 sets of 10"
+        app:cornerRadius="0dp"
         android:textSize="25dp"
-        android:textColor="@color/teal"/>
+        android:textColor="@color/teal"
+        android:backgroundTint="@color/Darkgrey"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -76,3 +120,4 @@
 
 
 </LinearLayout>
+
