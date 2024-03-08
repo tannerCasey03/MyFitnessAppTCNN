@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:layout_width="match_parent"
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
@@ -18,6 +19,12 @@
         android:layout_width="wrap_content"
         android:layout_height="30dp"/>
 
+    <ImageView
+        android:id="@+id/picture"
+        android:layout_width="312dp"
+        android:layout_height="190dp"
+        tools:srcCompat="@drawable/overhead" />
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -25,7 +32,8 @@
         android:textSize="25dp"
         app:cornerRadius="0dp"
         android:textColor="@color/teal"
-        android:backgroundTint="@color/Darkgrey"/>
+        android:backgroundTint="@color/Darkgrey"
+        android:id="@+id/pushBTN"/>
     <Space
         android:layout_width="wrap_content"
         android:layout_height="30dp"/>
@@ -37,27 +45,22 @@
         android:textSize="25dp"
         app:cornerRadius="0dp"
         android:textColor="@color/teal"
-        android:backgroundTint="@color/Darkgrey"/>
+        android:backgroundTint="@color/Darkgrey"
+        android:id="@+id/burpBTN"/>
     <Space
         android:layout_width="wrap_content"
         android:layout_height="30dp"/>
 
+
     <Button
-        :
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Weighted OverHead Extentions, 2 sets of 15"
         android:textSize="20dp"
         app:cornerRadius="0dp"
         android:textColor="@color/teal"
-        android:backgroundTint="@color/Darkgrey"/>
-
-
-
-
-
-
-
+        android:backgroundTint="@color/Darkgrey"
+        android:id="@+id/extendBTN"/>
 
 
 </LinearLayout>
