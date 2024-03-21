@@ -21,7 +21,7 @@ public class lowerBodyActivity extends AppCompatActivity {
         squatBTN = (Button) findViewById(R.id.squatBTN);
         calfBTN = (Button) findViewById(R.id.calfBTN);
 
-        /*
+
         lungBTN.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -41,6 +41,6 @@ public class lowerBodyActivity extends AppCompatActivity {
             public void onClick(View v) {
                 image.setImageResource(R.drawable.calf);
             }
-        });*/
+        });
     }
 }
