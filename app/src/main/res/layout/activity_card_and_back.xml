@@ -8,6 +8,13 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:textColor="@color/teal"/>
 
 
     <Space
@@ -62,7 +69,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Lower Body"
+        android:text="Cardio"
         android:textSize="35dp"
         android:textStyle="bold"
         android:textColor="@color/teal"/>
@@ -77,22 +84,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Lunges 3 sets of 10"
-        app:cornerRadius="0dp"
-        android:textSize="25dp"
-        android:textColor="@color/teal"
-        android:backgroundTint="@color/Darkgrey"/>
-
-
-    <Space
-        android:layout_width="wrap_content"
-        android:layout_height="25dp"/>
-
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Squats 2 sets of 15"
+        android:text="High Knees 3 sets of 10"
         app:cornerRadius="0dp"
         android:textSize="25dp"
         android:textColor="@color/teal"
@@ -108,12 +100,18 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Calf raises 3 sets of 10"
+        android:text="Jumping Jacks 5 sets of 15"
         app:cornerRadius="0dp"
         android:textSize="25dp"
         android:textColor="@color/teal"
         android:backgroundTint="@color/Darkgrey"
-        android:id="@+id/jacksBTN"/>
+        android:id="@+id/jacksBTN"
+        />
+
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"/>
 
 
 

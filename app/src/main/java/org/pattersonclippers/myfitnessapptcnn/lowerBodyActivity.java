@@ -17,6 +17,7 @@ public class lowerBodyActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lower_body);
+        image = (ImageView) findViewById(R.id.image);
         lungBTN= (Button) findViewById(R.id.lungBTN);
         squatBTN = (Button) findViewById(R.id.squatBTN);
         calfBTN = (Button) findViewById(R.id.calfBTN);
@@ -24,23 +25,17 @@ public class lowerBodyActivity extends AppCompatActivity {
 
         lungBTN.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                image.setImageResource(R.drawable.lunges);
-            }
+            public void onClick(View v) { image.setImageResource(R.drawable.lunges); }
         });
 
         squatBTN.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                image.setImageResource(R.drawable.squat);
-            }
+            public void onClick(View v) {image.setImageResource(R.drawable.squat); }
         });
 
         calfBTN.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                image.setImageResource(R.drawable.calf);
-            }
+            public void onClick(View v) {image.setImageResource(R.drawable.calf); }
         });
     }
 }
