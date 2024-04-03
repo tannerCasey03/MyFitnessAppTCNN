@@ -1,3 +1,4 @@
+
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -119,7 +120,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:cornerRadius="0dp"
-        android:text="Lateral Shuffle5 sets of 15"
+        android:text="Lateral Shuffle 5 sets of 15"
         android:textSize="20dp"
         android:textColor="@color/teal"
         android:backgroundTint="@color/Darkgrey"
