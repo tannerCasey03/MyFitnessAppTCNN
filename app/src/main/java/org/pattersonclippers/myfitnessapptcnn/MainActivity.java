@@ -3,6 +3,7 @@ package org.pattersonclippers.myfitnessapptcnn;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -14,13 +15,21 @@ public class MainActivity extends AppCompatActivity {
     Button upperBTN,lowerBTN,cardBTN,addBTN,resetBTN;
     TextView totalCalTV;
     EditText calorieET;
-    int total;
+    int total, calCount;
+    private SharedPreferences mySharedPreferences;
+    SharedPreferences.Editor preferencesEditor;
+    private final String COUNT_KEY = "count";
+    private String spFilename = "org.pattersonclippers.myfitnessapptcnn.fitness";
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        mySharedPreferences = getSharedPreferences(spFilename, MODE_PRIVATE);
+        preferencesEditor = mySharedPreferences.edit();
+        calCount = mySharedPreferences.getInt(COUNT_KEY, 0);
 
         upperBTN = (Button) findViewById(R.id.upperBTN);
         lowerBTN = (Button) findViewById(R.id.lowerBTN);
@@ -30,10 +39,9 @@ public class MainActivity extends AppCompatActivity {
         totalCalTV = (TextView) findViewById(R.id.totalCalTV);
         calorieET = (EditText) findViewById(R.id.calorieET);
 
-        total = 0;
+        total = calCount;
 
-
-
+        totalCalTV.setText(total + "");
 
         upperBTN.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -74,6 +82,8 @@ public class MainActivity extends AppCompatActivity {
                 int numsFromET = Integer.parseInt(String.valueOf(calorieET.getText()));
                 total += numsFromET;
                 totalCalTV.setText(total + "");
+                preferencesEditor.putInt(COUNT_KEY, total);
+                preferencesEditor.apply();
             }
         });
 
@@ -83,6 +93,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 total = 0;
                 totalCalTV.setText(total + "");
+                preferencesEditor.putInt(COUNT_KEY, total);
+                preferencesEditor.apply();
             }
         });
 
