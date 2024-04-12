@@ -64,7 +64,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/calorieET"
         android:textSize="25dp"
-        android:hint="How many calories did you eat"
+        android:hint="How many Calories did you eat"
         android:textColorHint="@color/teal"/>
 
     <Button
