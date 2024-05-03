@@ -28,12 +28,20 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Push - Up's, 3 sets of 10"
+        android:text="Push-ups, 3 sets of 10"
         android:textSize="25dp"
         app:cornerRadius="0dp"
         android:textColor="@color/teal"
         android:backgroundTint="@color/Darkgrey"
         android:id="@+id/pushBTN"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" 40 calories burn"
+        android:textSize="20dp"
+        android:textColor="@color/teal"/>
+
     <Space
         android:layout_width="wrap_content"
         android:layout_height="30dp"/>
@@ -47,6 +55,13 @@
         android:textColor="@color/teal"
         android:backgroundTint="@color/Darkgrey"
         android:id="@+id/burpBTN"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" 45 calories burn"
+        android:textSize="20dp"
+        android:textColor="@color/teal"/>
+
     <Space
         android:layout_width="wrap_content"
         android:layout_height="31dp"/>
@@ -62,5 +77,11 @@
         android:backgroundTint="@color/Darkgrey"
         android:id="@+id/extendBTN"/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="30 calories burn"
+        android:textSize="20dp"
+        android:textColor="@color/teal"/>
 
 </LinearLayout>

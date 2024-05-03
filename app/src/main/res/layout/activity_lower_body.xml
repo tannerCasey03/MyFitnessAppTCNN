@@ -44,6 +44,14 @@
         android:backgroundTint="@color/Darkgrey"
         android:id="@+id/lungBTN"/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="100 calories burn"
+        android:textSize="20dp"
+        android:textColor="@color/teal"/>
+
+
 
     <Space
         android:layout_width="wrap_content"
@@ -59,6 +67,13 @@
         android:textColor="@color/teal"
         android:backgroundTint="@color/Darkgrey"
         android:id="@+id/squatBTN"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="70 calories burn"
+        android:textSize="20dp"
+        android:textColor="@color/teal"/>
 
 
     <Space
@@ -76,6 +91,13 @@
         android:backgroundTint="@color/Darkgrey"
         android:id="@+id/calfBTN"/>
 
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="50 calories burn"
+        android:textSize="20dp"
+        android:textColor="@color/teal"/>
 
 
 

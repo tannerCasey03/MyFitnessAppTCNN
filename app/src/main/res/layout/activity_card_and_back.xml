@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:layout_width="match_parent"
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:fillViewport="true">
+
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:gravity="center"
     android:background="@color/grey"
     xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
 
     <ImageView
         android:id="@+id/pic"
@@ -19,14 +28,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Back"
-        android:textSize="35dp"
+        android:textSize="30dp"
         android:textStyle="bold"
         android:textColor="@color/teal"/>
 
 
     <Space
         android:layout_width="wrap_content"
-        android:layout_height="25dp"/>
+        android:layout_height="5dp"/>
 
 
     <Button
@@ -39,9 +48,16 @@
         android:textSize="14dp"
         app:cornerRadius="0dp" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10 per min calories burn"
+        android:textSize="13dp"
+        android:textColor="@color/teal"/>
+
     <Space
         android:layout_width="wrap_content"
-        android:layout_height="25dp"/>
+        android:layout_height="1dp"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -52,10 +68,17 @@
         android:textColor="@color/teal"
         android:backgroundTint="@color/Darkgrey"
         android:id="@+id/bentBTN"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="40 calories burn"
+        android:textSize="13dp"
+        android:textColor="@color/teal"/>
+
 
     <Space
         android:layout_width="wrap_content"
-        android:layout_height="25dp"/>
+        android:layout_height="1dp"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -67,24 +90,31 @@
         android:backgroundTint="@color/Darkgrey"
         android:id="@+id/raiseBTN"/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="50 calories burn"
+        android:textSize="13dp"
+        android:textColor="@color/teal"/>
+
 
     <Space
         android:layout_width="wrap_content"
-        android:layout_height="15dp"/>
+        android:layout_height="1dp"/>
 
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Cardio"
-        android:textSize="35dp"
+        android:textSize="30dp"
         android:textStyle="bold"
         android:textColor="@color/teal"/>
 
 
     <Space
         android:layout_width="wrap_content"
-        android:layout_height="25dp"
+        android:layout_height="5dp"
         android:textColor="@color/teal"/>
 
 
@@ -98,10 +128,16 @@
         android:backgroundTint="@color/Darkgrey"
         android:id="@+id/kneesBTN"/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="25 calories burn"
+        android:textSize="13dp"
+        android:textColor="@color/teal"/>
 
     <Space
         android:layout_width="wrap_content"
-        android:layout_height="25dp"/>
+        android:layout_height="1dp"/>
 
 
     <Button
@@ -115,10 +151,17 @@
         android:id="@+id/jacksBTN"
         />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="50 calories burn"
+        android:textSize="13dp"
+        android:textColor="@color/teal"/>
+
 
     <Space
         android:layout_width="wrap_content"
-        android:layout_height="25dp"/>
+        android:layout_height="1dp"/>
 
 
 
@@ -131,9 +174,22 @@
         android:textColor="@color/teal"
         android:backgroundTint="@color/Darkgrey"
         android:id="@+id/shuffleBTN"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="75 calories burn"
+        android:textSize="13dp"
+        android:textColor="@color/teal"/>
+
+
+
 
 
 
 
 </LinearLayout>
+
+
+
+</ScrollView>
 
